@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Calsulus</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+  <main>
+    
+    <div class="digits">
+      <div class="">
+        <button class="digit">.</button>
+        <button id="zero" class="digit">0</button>
+      </div>
+      <div class="min-3">
+        <button class="digit">1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button>
+      </div>
+      <div class="mid-3">
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+      </div>
+      <div class="max-3">
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+      </div>
+    </div>
+
+    <div class="operators">
+      <div class="operations">
+        <button class="operator">+</button>
+        <button class="operator">-</button>
+        <button class="operator">*</button>
+        <button class="operator">/</button>
+      </div>
+      <div class="">
+        <button id="equal" class="equal">=</button>
+        <button id="clear" class="clear">CE</button>
+        <button id="back" class="back">BACK</button>
+      </div>
+    </div>
+
+    <div id="display" class="displays">
+      <div id="second" class="display"></div>
+      <div id="first" class="display"></div>
+    </div>
+  </main>
+  <script src="./js/calculator.js"></script>
+</body>
+</html>
